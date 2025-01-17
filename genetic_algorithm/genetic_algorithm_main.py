@@ -7,7 +7,7 @@ def fitness_func(ga_instance, solution, solution_idx):
     return fitness
 
 if __name__ == '__main__':
-    function_inputs = [4, -2, 3.5, 5, -11, -4.7] # The weights applied to a potential solution.
+    function_inputs = [4, -1000, -1000, -1000, -1000, -1000] # The weights applied to a potential solution.
     desired_output = 44
 
     fitness_function = fitness_func
@@ -18,8 +18,8 @@ if __name__ == '__main__':
     sol_per_pop = 8
     num_genes = len(function_inputs) # Use this to control the number of feature selection potential solutions is used.
 
-    init_range_low = -2
-    init_range_high = 5
+    init_range_low = 0
+    init_range_high = 1
 
     parent_selection_type = "sss" #steady-state selection, meaning it selects the parents with the highest fitness.
     keep_parents = 1
@@ -28,7 +28,7 @@ if __name__ == '__main__':
 
     mutation_type = "random"
     mutation_percent_genes = 20
-    for num_of_generations in range(10, 51, 10):
+    for num_of_generations in range(50, 1001, 50):
         ga_instance = pygad.GA(num_generations=num_of_generations,
                                num_parents_mating=num_parents_mating, # Num of parents to select each generation.
                                fitness_func=fitness_function,
@@ -43,6 +43,7 @@ if __name__ == '__main__':
                                crossover_type=crossover_type,
                                mutation_type=mutation_type,
                                mutation_percent_genes=mutation_percent_genes, # The probablity that each gene will be mutated
+                               random_mutation_min_val=-1,
                                # crossover_type=crossover_func, Can be used to customize a crossover func.
                                # mutation_type=mutation_func, Can be used to customize a mutation func.
                                )
