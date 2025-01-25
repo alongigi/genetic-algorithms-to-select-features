@@ -52,8 +52,7 @@ target_variables_list = [isolet_target_variables, spambase_target_variables]
 FEATURES_TO_SELECT = [5, 40]
 # Genetic Algorithm parameters
 NUMBER_OF_GENERATIONS = [1, 5, 20]
-PARENT_SELECTION_TYPE = ["sss",  # steady-state selection, meaning it selects the parents with the highest fitness.
-                         "rank"]
+PARENT_SELECTION_TYPE = ["sss", "rank"]
 KEEP_PARENTS = 1
 NUMBER_OF_PARENTS_MATING = 4
 SOLUTIONS_PER_POPULATION = 12
@@ -317,7 +316,7 @@ if __name__ == "__main__":
             top_features = get_top_k_features(
                 selector=selector_in_list[0],
                 feature_names=features.columns,
-                top_features_to_select=len(features.columns),  # todo change back?
+                top_features_to_select=len(features.columns),
                 algorithm=selector_in_list[1],
             )
             features_selected_by_each_algorithm[selector_in_list[1]] = top_features
