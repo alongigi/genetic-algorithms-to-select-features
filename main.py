@@ -49,9 +49,21 @@ RANDOM_STATE_OF_DATA_SPLIT = 42
 features_list = [isolet_features, spambase_features]
 target_variables_list = [isolet_target_variables, spambase_target_variables]
 
-FEATURES_TO_SELECT = [5, 40]
+"""
+Funtionality to choose a range of values instead of set values
+"""
+MIN_NUMBER_OF_GENERATIONS = 10
+MAX_NUMBER_OF_GENERATIONS = 40
+GENERATION_STEP_SIZE = 5
+
+
+MIN_NUMBER_OF_FEATURES = 5
+MAX_NUMBER_OF_FEATURES = 40
+FEATURE_STEP_SIZE = 5
+
+FEATURES_TO_SELECT = [item for item in range(MIN_NUMBER_OF_FEATURES, MAX_NUMBER_OF_FEATURES + 1, FEATURE_STEP_SIZE)]
 # Genetic Algorithm parameters
-NUMBER_OF_GENERATIONS = [1, 5, 20]
+NUMBER_OF_GENERATIONS = [item for item in range(MIN_NUMBER_OF_GENERATIONS, MAX_NUMBER_OF_GENERATIONS + 1, GENERATION_STEP_SIZE)]
 PARENT_SELECTION_TYPE = ["sss", "rank"]
 KEEP_PARENTS = 1
 NUMBER_OF_PARENTS_MATING = 4
