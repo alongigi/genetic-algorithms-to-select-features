@@ -1,0 +1,504 @@
+Sun 26 Jan 2025 13:22:19 IST
+
+SLURM_JOBID:		 2463389
+SLURM_JOB_NODELIST:	 ise-cpu-intl-10 
+
+
+reading isolet
+reading spambase
+
+
+
+Parent Selection Type: sss
+Number of Generations: 25
+Features to select: 5
+Dataset: spam
+Running feature selection based on other feature selection algorithms
+--------------------------------------------------
+Training time: 205.29 seconds
+Generation: 25
+Parameters of the best solution : [0.78517596 0.91740481 0.51423444 0.21233911 0.18182497]
+Fitness value of the best solution = 0.8968512486427795
+[np.float64(0.8957654723127035), np.float64(0.8957654723127035), np.float64(0.8968512486427795), np.float64(0.8968512486427795), np.float64(0.8968512486427795), np.float64(0.8968512486427795), np.float64(0.8968512486427795), np.float64(0.8968512486427795), np.float64(0.8968512486427795), np.float64(0.8968512486427795), np.float64(0.8968512486427795), np.float64(0.8968512486427795), np.float64(0.8968512486427795), np.float64(0.8968512486427795), np.float64(0.8968512486427795), np.float64(0.8968512486427795), np.float64(0.8968512486427795), np.float64(0.8968512486427795), np.float64(0.8968512486427795), np.float64(0.8968512486427795), np.float64(0.8968512486427795), np.float64(0.8968512486427795), np.float64(0.8968512486427795), np.float64(0.8968512486427795), np.float64(0.8968512486427795), np.float64(0.8968512486427795)]
+Running feature selection based on simple genetic algorithm
+--------------------------------------------------
+Training time: 231.59 seconds
+Generation: 25
+Parameters of the best solution : [51, 6, 56, 15, 54]
+Fitness value of the best solution = 0.9066232356134636
+[np.float64(0.8718783930510315), np.float64(0.8914223669923995), np.float64(0.8914223669923995), np.float64(0.8935939196525515), np.float64(0.8935939196525515), np.float64(0.8935939196525515), np.float64(0.8935939196525515), np.float64(0.8935939196525515), np.float64(0.8935939196525515), np.float64(0.8935939196525515), np.float64(0.8935939196525515), np.float64(0.8935939196525515), np.float64(0.8935939196525515), np.float64(0.8935939196525515), np.float64(0.8935939196525515), np.float64(0.8946796959826275), np.float64(0.8946796959826275), np.float64(0.9001085776330076), np.float64(0.9066232356134636), np.float64(0.9066232356134636), np.float64(0.9066232356134636), np.float64(0.9066232356134636), np.float64(0.9066232356134636), np.float64(0.9066232356134636), np.float64(0.9066232356134636), np.float64(0.9066232356134636)]
+------------------------------------------------
+Feature selection method: classifier_chi2. Accuracy: 0.8512486427795874
+------------------------------------------------
+Feature selection method: classifier_mutual_info_classif. Accuracy: 0.8849077090119435
+------------------------------------------------
+Feature selection method: classifier_mutual_info_regression. Accuracy: 0.8979370249728555
+------------------------------------------------
+Feature selection method: classifier_f_classif. Accuracy: 0.8534201954397395
+------------------------------------------------
+Feature selection method: classifier_f_regression. Accuracy: 0.8534201954397395
+
+
+
+Parent Selection Type: sss
+Number of Generations: 25
+Features to select: 10
+Dataset: spam
+Running feature selection based on other feature selection algorithms
+--------------------------------------------------
+Training time: 223.64 seconds
+Generation: 25
+Parameters of the best solution : [ 0.75963297  0.44414188  0.45031146  0.06484136 -0.49065876]
+Fitness value of the best solution = 0.9326818675352877
+[np.float64(0.9239956568946797), np.float64(0.9283387622149837), np.float64(0.9283387622149837), np.float64(0.9283387622149837), np.float64(0.9283387622149837), np.float64(0.9283387622149837), np.float64(0.9305103148751357), np.float64(0.9283387622149837), np.float64(0.9283387622149837), np.float64(0.9305103148751357), np.float64(0.9446254071661238), np.float64(0.9391965255157437), np.float64(0.9435396308360477), np.float64(0.9413680781758957), np.float64(0.9435396308360477), np.float64(0.9435396308360477), np.float64(0.9446254071661238), np.float64(0.9446254071661238), np.float64(0.9446254071661238), np.float64(0.9446254071661238), np.float64(0.9446254071661238), np.float64(0.9446254071661238), np.float64(0.9446254071661238), np.float64(0.9446254071661238), np.float64(0.9446254071661238), np.float64(0.9326818675352877)]
+Running feature selection based on simple genetic algorithm
+--------------------------------------------------
+Training time: 234.34 seconds
+Generation: 25
+Parameters of the best solution : [45, 26, 6, 49, 55, 15, 18, 24, 44, 23]
+Fitness value of the best solution = 0.9435396308360477
+[np.float64(0.8881650380021715), np.float64(0.8881650380021715), np.float64(0.9055374592833876), np.float64(0.9055374592833876), np.float64(0.9055374592833876), np.float64(0.9174809989142236), np.float64(0.9174809989142236), np.float64(0.9185667752442996), np.float64(0.9185667752442996), np.float64(0.9239956568946797), np.float64(0.9326818675352877), np.float64(0.9359391965255157), np.float64(0.9359391965255157), np.float64(0.9359391965255157), np.float64(0.9359391965255157), np.float64(0.9359391965255157), np.float64(0.9359391965255157), np.float64(0.9370249728555917), np.float64(0.9381107491856677), np.float64(0.9435396308360477), np.float64(0.9435396308360477), np.float64(0.9435396308360477), np.float64(0.9435396308360477), np.float64(0.9435396308360477), np.float64(0.9435396308360477), np.float64(0.9435396308360477)]
+------------------------------------------------
+Feature selection method: classifier_chi2. Accuracy: 0.8925081433224755
+------------------------------------------------
+Feature selection method: classifier_mutual_info_classif. Accuracy: 0.9446254071661238
+------------------------------------------------
+Feature selection method: classifier_mutual_info_regression. Accuracy: 0.9391965255157437
+------------------------------------------------
+Feature selection method: classifier_f_classif. Accuracy: 0.9218241042345277
+------------------------------------------------
+Feature selection method: classifier_f_regression. Accuracy: 0.9218241042345277
+
+
+
+Parent Selection Type: sss
+Number of Generations: 25
+Features to select: 15
+Dataset: spam
+Running feature selection based on other feature selection algorithms
+--------------------------------------------------
+Training time: 229.11 seconds
+Generation: 25
+Parameters of the best solution : [0.86855151 0.06468689 0.95582448 0.02514196 0.69445046]
+Fitness value of the best solution = 0.9467969598262758
+[np.float64(0.9467969598262758), np.float64(0.9467969598262758), np.float64(0.9467969598262758), np.float64(0.9467969598262758), np.float64(0.9467969598262758), np.float64(0.9467969598262758), np.float64(0.9467969598262758), np.float64(0.9467969598262758), np.float64(0.9467969598262758), np.float64(0.9467969598262758), np.float64(0.9467969598262758), np.float64(0.9467969598262758), np.float64(0.9467969598262758), np.float64(0.9467969598262758), np.float64(0.9467969598262758), np.float64(0.9467969598262758), np.float64(0.9467969598262758), np.float64(0.9467969598262758), np.float64(0.9467969598262758), np.float64(0.9467969598262758), np.float64(0.9467969598262758), np.float64(0.9467969598262758), np.float64(0.9467969598262758), np.float64(0.9467969598262758), np.float64(0.9467969598262758), np.float64(0.9467969598262758)]
+Running feature selection based on simple genetic algorithm
+--------------------------------------------------
+Training time: 211.73 seconds
+Generation: 25
+Parameters of the best solution : [24, 42, 26, 51, 55, 10, 18, 30, 34, 4, 6, 45, 49, 41, 15]
+Fitness value of the best solution = 0.9522258414766558
+[np.float64(0.9185667752442996), np.float64(0.9261672095548317), np.float64(0.9348534201954397), np.float64(0.9370249728555917), np.float64(0.9370249728555917), np.float64(0.9424538545059717), np.float64(0.9424538545059717), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9522258414766558), np.float64(0.9522258414766558), np.float64(0.9522258414766558), np.float64(0.9522258414766558), np.float64(0.9522258414766558), np.float64(0.9522258414766558), np.float64(0.9522258414766558), np.float64(0.9522258414766558), np.float64(0.9522258414766558), np.float64(0.9522258414766558), np.float64(0.9522258414766558), np.float64(0.9522258414766558), np.float64(0.9522258414766558), np.float64(0.9522258414766558)]
+------------------------------------------------
+Feature selection method: classifier_chi2. Accuracy: 0.9131378935939196
+------------------------------------------------
+Feature selection method: classifier_mutual_info_classif. Accuracy: 0.9446254071661238
+------------------------------------------------
+Feature selection method: classifier_mutual_info_regression. Accuracy: 0.9446254071661238
+------------------------------------------------
+Feature selection method: classifier_f_classif. Accuracy: 0.9250814332247557
+------------------------------------------------
+Feature selection method: classifier_f_regression. Accuracy: 0.9250814332247557
+
+
+
+Parent Selection Type: sss
+Number of Generations: 25
+Features to select: 20
+Dataset: spam
+Running feature selection based on other feature selection algorithms
+--------------------------------------------------
+Training time: 266.11 seconds
+Generation: 25
+Parameters of the best solution : [ 0.54302412 -0.85072314 -0.86661224 -0.89521741  0.74723706]
+Fitness value of the best solution = 0.9413680781758957
+[np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9478827361563518), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9511400651465798), np.float64(0.9478827361563518), np.float64(0.9478827361563518), np.float64(0.9478827361563518), np.float64(0.9478827361563518), np.float64(0.9478827361563518), np.float64(0.9478827361563518), np.float64(0.9478827361563518), np.float64(0.9478827361563518), np.float64(0.9478827361563518), np.float64(0.9478827361563518), np.float64(0.9478827361563518), np.float64(0.9478827361563518), np.float64(0.9478827361563518), np.float64(0.9478827361563518), np.float64(0.9511400651465798), np.float64(0.9413680781758957)]
+Running feature selection based on simple genetic algorithm
+--------------------------------------------------
+Training time: 246.68 seconds
+Generation: 25
+Parameters of the best solution : [53, 52, 4, 15, 16, 29, 47, 44, 51, 49, 24, 55, 6, 26, 45, 34, 42, 54, 1, 18]
+Fitness value of the best solution = 0.9522258414766558
+[np.float64(0.9283387622149837), np.float64(0.9326818675352877), np.float64(0.9359391965255157), np.float64(0.9424538545059717), np.float64(0.9424538545059717), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9478827361563518), np.float64(0.9478827361563518), np.float64(0.9478827361563518), np.float64(0.9478827361563518), np.float64(0.9478827361563518), np.float64(0.9478827361563518), np.float64(0.9478827361563518), np.float64(0.9478827361563518), np.float64(0.9478827361563518), np.float64(0.9478827361563518), np.float64(0.9478827361563518), np.float64(0.9478827361563518), np.float64(0.9489685124864278), np.float64(0.9522258414766558), np.float64(0.9522258414766558)]
+------------------------------------------------
+Feature selection method: classifier_chi2. Accuracy: 0.9174809989142236
+------------------------------------------------
+Feature selection method: classifier_mutual_info_classif. Accuracy: 0.9446254071661238
+------------------------------------------------
+Feature selection method: classifier_mutual_info_regression. Accuracy: 0.9413680781758957
+------------------------------------------------
+Feature selection method: classifier_f_classif. Accuracy: 0.9381107491856677
+------------------------------------------------
+Feature selection method: classifier_f_regression. Accuracy: 0.9381107491856677
+
+
+
+Parent Selection Type: sss
+Number of Generations: 25
+Features to select: 25
+Dataset: spam
+Running feature selection based on other feature selection algorithms
+--------------------------------------------------
+Training time: 296.09 seconds
+Generation: 25
+Parameters of the best solution : [0.84375504 0.32492279 0.25533775 0.58769702 0.11236448]
+Fitness value of the best solution = 0.9511400651465798
+[np.float64(0.9533116178067318), np.float64(0.9511400651465798), np.float64(0.9511400651465798), np.float64(0.9511400651465798), np.float64(0.9511400651465798), np.float64(0.9511400651465798), np.float64(0.9511400651465798), np.float64(0.9511400651465798), np.float64(0.9511400651465798), np.float64(0.9511400651465798), np.float64(0.9511400651465798), np.float64(0.9511400651465798), np.float64(0.9511400651465798), np.float64(0.9511400651465798), np.float64(0.9511400651465798), np.float64(0.9511400651465798), np.float64(0.9511400651465798), np.float64(0.9511400651465798), np.float64(0.9511400651465798), np.float64(0.9511400651465798), np.float64(0.9511400651465798), np.float64(0.9511400651465798), np.float64(0.9511400651465798), np.float64(0.9511400651465798), np.float64(0.9511400651465798), np.float64(0.9511400651465798)]
+Running feature selection based on simple genetic algorithm
+--------------------------------------------------
+Training time: 268.39 seconds
+Generation: 25
+Parameters of the best solution : [3, 28, 24, 44, 45, 39, 48, 15, 49, 4, 22, 31, 40, 47, 52, 13, 23, 6, 30, 55, 41, 51, 53, 17, 21]
+Fitness value of the best solution = 0.9565689467969598
+[np.float64(0.9489685124864278), np.float64(0.9489685124864278), np.float64(0.9489685124864278), np.float64(0.9500542888165038), np.float64(0.9511400651465798), np.float64(0.9511400651465798), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598)]
+------------------------------------------------
+Feature selection method: classifier_chi2. Accuracy: 0.9196525515743756
+------------------------------------------------
+Feature selection method: classifier_mutual_info_classif. Accuracy: 0.9478827361563518
+------------------------------------------------
+Feature selection method: classifier_mutual_info_regression. Accuracy: 0.9446254071661238
+------------------------------------------------
+Feature selection method: classifier_f_classif. Accuracy: 0.9413680781758957
+------------------------------------------------
+Feature selection method: classifier_f_regression. Accuracy: 0.9413680781758957
+
+
+
+Parent Selection Type: sss
+Number of Generations: 25
+Features to select: 30
+Dataset: spam
+Running feature selection based on other feature selection algorithms
+--------------------------------------------------
+Training time: 299.82 seconds
+Generation: 25
+Parameters of the best solution : [0.1817636  0.50413284 0.09383103 0.25810764 0.10621383]
+Fitness value of the best solution = 0.9554831704668838
+[np.float64(0.9543973941368078), np.float64(0.9543973941368078), np.float64(0.9543973941368078), np.float64(0.9543973941368078), np.float64(0.9543973941368078), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838)]
+Running feature selection based on simple genetic algorithm
+--------------------------------------------------
+Training time: 266.86 seconds
+Generation: 25
+Parameters of the best solution : [42, 24, 15, 26, 18, 41, 55, 21, 5, 45, 51, 27, 47, 13, 10, 23, 0, 11, 19, 25, 40, 8, 6, 44, 49, 52, 35, 4, 14, 53]
+Fitness value of the best solution = 0.9609120521172638
+[np.float64(0.9457111834961998), np.float64(0.9522258414766558), np.float64(0.9533116178067318), np.float64(0.9533116178067318), np.float64(0.9587404994571118), np.float64(0.9587404994571118), np.float64(0.9587404994571118), np.float64(0.9587404994571118), np.float64(0.9587404994571118), np.float64(0.9587404994571118), np.float64(0.9587404994571118), np.float64(0.9587404994571118), np.float64(0.9587404994571118), np.float64(0.9609120521172638), np.float64(0.9609120521172638), np.float64(0.9609120521172638), np.float64(0.9609120521172638), np.float64(0.9609120521172638), np.float64(0.9609120521172638), np.float64(0.9609120521172638), np.float64(0.9609120521172638), np.float64(0.9609120521172638), np.float64(0.9609120521172638), np.float64(0.9609120521172638), np.float64(0.9609120521172638), np.float64(0.9609120521172638)]
+------------------------------------------------
+Feature selection method: classifier_chi2. Accuracy: 0.9446254071661238
+------------------------------------------------
+Feature selection method: classifier_mutual_info_classif. Accuracy: 0.9424538545059717
+------------------------------------------------
+Feature selection method: classifier_mutual_info_regression. Accuracy: 0.9543973941368078
+------------------------------------------------
+Feature selection method: classifier_f_classif. Accuracy: 0.9511400651465798
+------------------------------------------------
+Feature selection method: classifier_f_regression. Accuracy: 0.9511400651465798
+
+
+
+Parent Selection Type: sss
+Number of Generations: 25
+Features to select: 35
+Dataset: spam
+Running feature selection based on other feature selection algorithms
+--------------------------------------------------
+Training time: 289.20 seconds
+Generation: 25
+Parameters of the best solution : [0.91259935 0.14325539 0.50182038 0.4376463  0.33969262]
+Fitness value of the best solution = 0.9565689467969598
+[np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598)]
+Running feature selection based on simple genetic algorithm
+--------------------------------------------------
+Training time: 271.22 seconds
+Generation: 25
+Parameters of the best solution : [14, 39, 1, 45, 8, 26, 41, 43, 55, 23, 34, 42, 36, 27, 22, 20, 49, 21, 28, 38, 24, 2, 33, 35, 31, 51, 10, 4, 9, 17, 44, 52, 19, 13, 15]
+Fitness value of the best solution = 0.9619978284473398
+[np.float64(0.9533116178067318), np.float64(0.9533116178067318), np.float64(0.9533116178067318), np.float64(0.9543973941368078), np.float64(0.9543973941368078), np.float64(0.9543973941368078), np.float64(0.9543973941368078), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9576547231270358), np.float64(0.9576547231270358), np.float64(0.9576547231270358), np.float64(0.9576547231270358), np.float64(0.9576547231270358), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9619978284473398), np.float64(0.9619978284473398), np.float64(0.9619978284473398), np.float64(0.9619978284473398), np.float64(0.9619978284473398)]
+------------------------------------------------
+Feature selection method: classifier_chi2. Accuracy: 0.9522258414766558
+------------------------------------------------
+Feature selection method: classifier_mutual_info_classif. Accuracy: 0.9522258414766558
+------------------------------------------------
+Feature selection method: classifier_mutual_info_regression. Accuracy: 0.9489685124864278
+------------------------------------------------
+Feature selection method: classifier_f_classif. Accuracy: 0.9511400651465798
+------------------------------------------------
+Feature selection method: classifier_f_regression. Accuracy: 0.9511400651465798
+
+
+
+Parent Selection Type: sss
+Number of Generations: 25
+Features to select: 40
+Dataset: spam
+Running feature selection based on other feature selection algorithms
+--------------------------------------------------
+Training time: 324.82 seconds
+Generation: 25
+Parameters of the best solution : [0.6777758  0.93599418 0.6781225  0.41442981 0.68953421]
+Fitness value of the best solution = 0.9598262757871878
+[np.float64(0.9587404994571118), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878)]
+Running feature selection based on simple genetic algorithm
+--------------------------------------------------
+Training time: 305.81 seconds
+Generation: 25
+Parameters of the best solution : [1, 10, 31, 22, 11, 2, 7, 30, 38, 46, 23, 8, 29, 48, 33, 15, 35, 24, 13, 28, 45, 53, 51, 5, 6, 40, 17, 3, 56, 16, 27, 49, 43, 19, 55, 41, 50, 52, 4, 21]
+Fitness value of the best solution = 0.9630836047774158
+[np.float64(0.9587404994571118), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9619978284473398), np.float64(0.9619978284473398), np.float64(0.9619978284473398), np.float64(0.9619978284473398), np.float64(0.9619978284473398), np.float64(0.9619978284473398), np.float64(0.9619978284473398), np.float64(0.9619978284473398), np.float64(0.9619978284473398), np.float64(0.9619978284473398), np.float64(0.9630836047774158), np.float64(0.9630836047774158), np.float64(0.9630836047774158), np.float64(0.9630836047774158), np.float64(0.9630836047774158)]
+------------------------------------------------
+Feature selection method: classifier_chi2. Accuracy: 0.9554831704668838
+------------------------------------------------
+Feature selection method: classifier_mutual_info_classif. Accuracy: 0.9511400651465798
+------------------------------------------------
+Feature selection method: classifier_mutual_info_regression. Accuracy: 0.9511400651465798
+------------------------------------------------
+Feature selection method: classifier_f_classif. Accuracy: 0.9533116178067318
+------------------------------------------------
+Feature selection method: classifier_f_regression. Accuracy: 0.9533116178067318
+
+
+
+Parent Selection Type: rank
+Number of Generations: 25
+Features to select: 5
+Dataset: spam
+Running feature selection based on other feature selection algorithms
+--------------------------------------------------
+Training time: 200.64 seconds
+Generation: 25
+Parameters of the best solution : [-0.50292851  0.50677004 -0.20551574  0.47662046 -0.18674896]
+Fitness value of the best solution = 0.8957654723127035
+[np.float64(0.8794788273615635), np.float64(0.8794788273615635), np.float64(0.8794788273615635), np.float64(0.8794788273615635), np.float64(0.8957654723127035), np.float64(0.8914223669923995), np.float64(0.8957654723127035), np.float64(0.8957654723127035), np.float64(0.8957654723127035), np.float64(0.8957654723127035), np.float64(0.8957654723127035), np.float64(0.8957654723127035), np.float64(0.8957654723127035), np.float64(0.8957654723127035), np.float64(0.8957654723127035), np.float64(0.8957654723127035), np.float64(0.8957654723127035), np.float64(0.8957654723127035), np.float64(0.8957654723127035), np.float64(0.8957654723127035), np.float64(0.8957654723127035), np.float64(0.8957654723127035), np.float64(0.8957654723127035), np.float64(0.8957654723127035), np.float64(0.8957654723127035), np.float64(0.8957654723127035)]
+Running feature selection based on simple genetic algorithm
+--------------------------------------------------
+Training time: 169.88 seconds
+Generation: 25
+Parameters of the best solution : [9, 15, 52, 6, 17]
+Fitness value of the best solution = 0.8621064060803475
+[np.float64(0.8447339847991314), np.float64(0.8447339847991314), np.float64(0.8447339847991314), np.float64(0.8447339847991314), np.float64(0.8447339847991314), np.float64(0.8447339847991314), np.float64(0.8447339847991314), np.float64(0.8447339847991314), np.float64(0.8447339847991314), np.float64(0.8447339847991314), np.float64(0.8447339847991314), np.float64(0.8447339847991314), np.float64(0.8610206297502715), np.float64(0.8610206297502715), np.float64(0.8610206297502715), np.float64(0.8610206297502715), np.float64(0.8610206297502715), np.float64(0.8610206297502715), np.float64(0.8610206297502715), np.float64(0.8610206297502715), np.float64(0.8610206297502715), np.float64(0.8621064060803475), np.float64(0.8621064060803475), np.float64(0.8621064060803475), np.float64(0.8621064060803475), np.float64(0.8621064060803475)]
+------------------------------------------------
+Feature selection method: classifier_chi2. Accuracy: 0.8512486427795874
+------------------------------------------------
+Feature selection method: classifier_mutual_info_classif. Accuracy: 0.8849077090119435
+------------------------------------------------
+Feature selection method: classifier_mutual_info_regression. Accuracy: 0.8979370249728555
+------------------------------------------------
+Feature selection method: classifier_f_classif. Accuracy: 0.8534201954397395
+------------------------------------------------
+Feature selection method: classifier_f_regression. Accuracy: 0.8534201954397395
+
+
+
+Parent Selection Type: rank
+Number of Generations: 25
+Features to select: 10
+Dataset: spam
+Running feature selection based on other feature selection algorithms
+--------------------------------------------------
+Training time: 216.44 seconds
+Generation: 25
+Parameters of the best solution : [-0.81309217 -0.764042    0.638329    0.75739517 -0.4065651 ]
+Fitness value of the best solution = 0.9446254071661238
+[np.float64(0.9348534201954397), np.float64(0.9348534201954397), np.float64(0.9348534201954397), np.float64(0.9348534201954397), np.float64(0.9348534201954397), np.float64(0.9348534201954397), np.float64(0.9348534201954397), np.float64(0.9348534201954397), np.float64(0.9348534201954397), np.float64(0.9348534201954397), np.float64(0.9348534201954397), np.float64(0.9348534201954397), np.float64(0.9348534201954397), np.float64(0.9446254071661238), np.float64(0.9446254071661238), np.float64(0.9446254071661238), np.float64(0.9446254071661238), np.float64(0.9446254071661238), np.float64(0.9446254071661238), np.float64(0.9446254071661238), np.float64(0.9446254071661238), np.float64(0.9446254071661238), np.float64(0.9446254071661238), np.float64(0.9446254071661238), np.float64(0.9446254071661238), np.float64(0.9446254071661238)]
+Running feature selection based on simple genetic algorithm
+--------------------------------------------------
+Training time: 196.47 seconds
+Generation: 25
+Parameters of the best solution : [45, 52, 6, 24, 42, 16, 44, 47, 51, 18]
+Fitness value of the best solution = 0.9174809989142236
+[np.float64(0.9001085776330076), np.float64(0.9001085776330076), np.float64(0.9001085776330076), np.float64(0.9001085776330076), np.float64(0.9001085776330076), np.float64(0.9001085776330076), np.float64(0.9001085776330076), np.float64(0.9001085776330076), np.float64(0.9001085776330076), np.float64(0.9001085776330076), np.float64(0.9001085776330076), np.float64(0.9001085776330076), np.float64(0.9001085776330076), np.float64(0.9001085776330076), np.float64(0.9001085776330076), np.float64(0.9001085776330076), np.float64(0.9001085776330076), np.float64(0.9001085776330076), np.float64(0.9001085776330076), np.float64(0.9174809989142236), np.float64(0.9174809989142236), np.float64(0.9174809989142236), np.float64(0.9174809989142236), np.float64(0.9174809989142236), np.float64(0.9174809989142236), np.float64(0.9174809989142236)]
+------------------------------------------------
+Feature selection method: classifier_chi2. Accuracy: 0.8925081433224755
+------------------------------------------------
+Feature selection method: classifier_mutual_info_classif. Accuracy: 0.9446254071661238
+------------------------------------------------
+Feature selection method: classifier_mutual_info_regression. Accuracy: 0.9391965255157437
+------------------------------------------------
+Feature selection method: classifier_f_classif. Accuracy: 0.9218241042345277
+------------------------------------------------
+Feature selection method: classifier_f_regression. Accuracy: 0.9218241042345277
+
+
+
+Parent Selection Type: rank
+Number of Generations: 25
+Features to select: 15
+Dataset: spam
+Running feature selection based on other feature selection algorithms
+--------------------------------------------------
+Training time: 224.93 seconds
+Generation: 25
+Parameters of the best solution : [0.76253511 0.25681348 0.44626225 0.694789   0.07961625]
+Fitness value of the best solution = 0.9457111834961998
+[np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998)]
+Running feature selection based on simple genetic algorithm
+--------------------------------------------------
+Training time: 217.08 seconds
+Generation: 25
+Parameters of the best solution : [1, 31, 37, 7, 27, 10, 24, 34, 45, 47, 51, 11, 22, 56, 21]
+Fitness value of the best solution = 0.9196525515743756
+[np.float64(0.9185667752442996), np.float64(0.9185667752442996), np.float64(0.9185667752442996), np.float64(0.9185667752442996), np.float64(0.9185667752442996), np.float64(0.9185667752442996), np.float64(0.9185667752442996), np.float64(0.9185667752442996), np.float64(0.9185667752442996), np.float64(0.9185667752442996), np.float64(0.9185667752442996), np.float64(0.9196525515743756), np.float64(0.9196525515743756), np.float64(0.9196525515743756), np.float64(0.9196525515743756), np.float64(0.9196525515743756), np.float64(0.9196525515743756), np.float64(0.9196525515743756), np.float64(0.9196525515743756), np.float64(0.9196525515743756), np.float64(0.9196525515743756), np.float64(0.9196525515743756), np.float64(0.9196525515743756), np.float64(0.9196525515743756), np.float64(0.9196525515743756), np.float64(0.9196525515743756)]
+------------------------------------------------
+Feature selection method: classifier_chi2. Accuracy: 0.9131378935939196
+------------------------------------------------
+Feature selection method: classifier_mutual_info_classif. Accuracy: 0.9446254071661238
+------------------------------------------------
+Feature selection method: classifier_mutual_info_regression. Accuracy: 0.9446254071661238
+------------------------------------------------
+Feature selection method: classifier_f_classif. Accuracy: 0.9250814332247557
+------------------------------------------------
+Feature selection method: classifier_f_regression. Accuracy: 0.9250814332247557
+
+
+
+Parent Selection Type: rank
+Number of Generations: 25
+Features to select: 20
+Dataset: spam
+Running feature selection based on other feature selection algorithms
+--------------------------------------------------
+Training time: 261.05 seconds
+Generation: 25
+Parameters of the best solution : [0.51494735 0.81398397 0.72215558 0.61507334 0.15079282]
+Fitness value of the best solution = 0.9489685124864278
+[np.float64(0.9489685124864278), np.float64(0.9489685124864278), np.float64(0.9489685124864278), np.float64(0.9489685124864278), np.float64(0.9489685124864278), np.float64(0.9489685124864278), np.float64(0.9489685124864278), np.float64(0.9489685124864278), np.float64(0.9489685124864278), np.float64(0.9489685124864278), np.float64(0.9489685124864278), np.float64(0.9489685124864278), np.float64(0.9489685124864278), np.float64(0.9489685124864278), np.float64(0.9489685124864278), np.float64(0.9489685124864278), np.float64(0.9489685124864278), np.float64(0.9489685124864278), np.float64(0.9489685124864278), np.float64(0.9489685124864278), np.float64(0.9489685124864278), np.float64(0.9489685124864278), np.float64(0.9489685124864278), np.float64(0.9489685124864278), np.float64(0.9489685124864278), np.float64(0.9489685124864278)]
+Running feature selection based on simple genetic algorithm
+--------------------------------------------------
+Training time: 239.46 seconds
+Generation: 25
+Parameters of the best solution : [17, 16, 55, 43, 30, 20, 41, 18, 45, 38, 23, 54, 9, 26, 2, 0, 21, 53, 24, 10]
+Fitness value of the best solution = 0.9326818675352877
+[np.float64(0.9326818675352877), np.float64(0.9326818675352877), np.float64(0.9326818675352877), np.float64(0.9326818675352877), np.float64(0.9326818675352877), np.float64(0.9326818675352877), np.float64(0.9326818675352877), np.float64(0.9326818675352877), np.float64(0.9326818675352877), np.float64(0.9326818675352877), np.float64(0.9326818675352877), np.float64(0.9326818675352877), np.float64(0.9326818675352877), np.float64(0.9326818675352877), np.float64(0.9326818675352877), np.float64(0.9326818675352877), np.float64(0.9326818675352877), np.float64(0.9326818675352877), np.float64(0.9326818675352877), np.float64(0.9326818675352877), np.float64(0.9326818675352877), np.float64(0.9326818675352877), np.float64(0.9326818675352877), np.float64(0.9326818675352877), np.float64(0.9326818675352877), np.float64(0.9326818675352877)]
+------------------------------------------------
+Feature selection method: classifier_chi2. Accuracy: 0.9174809989142236
+------------------------------------------------
+Feature selection method: classifier_mutual_info_classif. Accuracy: 0.9446254071661238
+------------------------------------------------
+Feature selection method: classifier_mutual_info_regression. Accuracy: 0.9413680781758957
+------------------------------------------------
+Feature selection method: classifier_f_classif. Accuracy: 0.9381107491856677
+------------------------------------------------
+Feature selection method: classifier_f_regression. Accuracy: 0.9381107491856677
+
+
+
+Parent Selection Type: rank
+Number of Generations: 25
+Features to select: 25
+Dataset: spam
+Running feature selection based on other feature selection algorithms
+--------------------------------------------------
+Training time: 296.77 seconds
+Generation: 25
+Parameters of the best solution : [0.62685362 0.07361826 0.18969636 0.33785389 0.07787006]
+Fitness value of the best solution = 0.9500542888165038
+[np.float64(0.9500542888165038), np.float64(0.9500542888165038), np.float64(0.9500542888165038), np.float64(0.9500542888165038), np.float64(0.9500542888165038), np.float64(0.9500542888165038), np.float64(0.9500542888165038), np.float64(0.9500542888165038), np.float64(0.9500542888165038), np.float64(0.9500542888165038), np.float64(0.9500542888165038), np.float64(0.9500542888165038), np.float64(0.9500542888165038), np.float64(0.9500542888165038), np.float64(0.9500542888165038), np.float64(0.9500542888165038), np.float64(0.9500542888165038), np.float64(0.9500542888165038), np.float64(0.9500542888165038), np.float64(0.9500542888165038), np.float64(0.9500542888165038), np.float64(0.9500542888165038), np.float64(0.9500542888165038), np.float64(0.9500542888165038), np.float64(0.9500542888165038), np.float64(0.9500542888165038)]
+Running feature selection based on simple genetic algorithm
+--------------------------------------------------
+Training time: 273.52 seconds
+Generation: 25
+Parameters of the best solution : [4, 10, 52, 18, 21, 22, 9, 33, 45, 16, 26, 27, 5, 13, 51, 20, 32, 2, 23, 25, 54, 19, 55, 43, 15]
+Fitness value of the best solution = 0.9457111834961998
+[np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998), np.float64(0.9457111834961998)]
+------------------------------------------------
+Feature selection method: classifier_chi2. Accuracy: 0.9196525515743756
+------------------------------------------------
+Feature selection method: classifier_mutual_info_classif. Accuracy: 0.9478827361563518
+------------------------------------------------
+Feature selection method: classifier_mutual_info_regression. Accuracy: 0.9446254071661238
+------------------------------------------------
+Feature selection method: classifier_f_classif. Accuracy: 0.9413680781758957
+------------------------------------------------
+Feature selection method: classifier_f_regression. Accuracy: 0.9413680781758957
+
+
+
+Parent Selection Type: rank
+Number of Generations: 25
+Features to select: 30
+Dataset: spam
+Running feature selection based on other feature selection algorithms
+--------------------------------------------------
+Training time: 292.74 seconds
+Generation: 25
+Parameters of the best solution : [0.69763482 0.69138645 0.32583559 0.78560179 0.90037602]
+Fitness value of the best solution = 0.9565689467969598
+[np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598), np.float64(0.9565689467969598)]
+Running feature selection based on simple genetic algorithm
+--------------------------------------------------
+Training time: 277.74 seconds
+Generation: 25
+Parameters of the best solution : [23, 55, 27, 44, 40, 56, 1, 32, 20, 12, 5, 46, 54, 24, 25, 39, 2, 16, 45, 49, 51, 0, 19, 15, 30, 34, 42, 7, 8, 17]
+Fitness value of the best solution = 0.9489685124864278
+[np.float64(0.9424538545059717), np.float64(0.9424538545059717), np.float64(0.9489685124864278), np.float64(0.9489685124864278), np.float64(0.9489685124864278), np.float64(0.9489685124864278), np.float64(0.9489685124864278), np.float64(0.9489685124864278), np.float64(0.9489685124864278), np.float64(0.9489685124864278), np.float64(0.9489685124864278), np.float64(0.9489685124864278), np.float64(0.9489685124864278), np.float64(0.9489685124864278), np.float64(0.9489685124864278), np.float64(0.9489685124864278), np.float64(0.9489685124864278), np.float64(0.9489685124864278), np.float64(0.9489685124864278), np.float64(0.9489685124864278), np.float64(0.9489685124864278), np.float64(0.9489685124864278), np.float64(0.9489685124864278), np.float64(0.9489685124864278), np.float64(0.9489685124864278), np.float64(0.9489685124864278)]
+------------------------------------------------
+Feature selection method: classifier_chi2. Accuracy: 0.9446254071661238
+------------------------------------------------
+Feature selection method: classifier_mutual_info_classif. Accuracy: 0.9424538545059717
+------------------------------------------------
+Feature selection method: classifier_mutual_info_regression. Accuracy: 0.9543973941368078
+------------------------------------------------
+Feature selection method: classifier_f_classif. Accuracy: 0.9511400651465798
+------------------------------------------------
+Feature selection method: classifier_f_regression. Accuracy: 0.9511400651465798
+
+
+
+Parent Selection Type: rank
+Number of Generations: 25
+Features to select: 35
+Dataset: spam
+Running feature selection based on other feature selection algorithms
+--------------------------------------------------
+Training time: 281.65 seconds
+Generation: 25
+Parameters of the best solution : [ 0.65738988  0.56665608 -0.39137945  0.61642566  0.52589297]
+Fitness value of the best solution = 0.9587404994571118
+[np.float64(0.9576547231270358), np.float64(0.9576547231270358), np.float64(0.9576547231270358), np.float64(0.9576547231270358), np.float64(0.9576547231270358), np.float64(0.9587404994571118), np.float64(0.9587404994571118), np.float64(0.9587404994571118), np.float64(0.9587404994571118), np.float64(0.9587404994571118), np.float64(0.9587404994571118), np.float64(0.9587404994571118), np.float64(0.9587404994571118), np.float64(0.9587404994571118), np.float64(0.9587404994571118), np.float64(0.9587404994571118), np.float64(0.9587404994571118), np.float64(0.9587404994571118), np.float64(0.9587404994571118), np.float64(0.9587404994571118), np.float64(0.9587404994571118), np.float64(0.9587404994571118), np.float64(0.9587404994571118), np.float64(0.9587404994571118), np.float64(0.9587404994571118), np.float64(0.9587404994571118)]
+Running feature selection based on simple genetic algorithm
+--------------------------------------------------
+Training time: 274.41 seconds
+Generation: 25
+Parameters of the best solution : [52, 16, 23, 3, 53, 43, 46, 25, 45, 19, 31, 24, 10, 13, 36, 51, 11, 18, 8, 15, 41, 54, 9, 56, 35, 39, 0, 17, 28, 6, 47, 49, 44, 32, 38]
+Fitness value of the best solution = 0.9554831704668838
+[np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838), np.float64(0.9554831704668838)]
+------------------------------------------------
+Feature selection method: classifier_chi2. Accuracy: 0.9522258414766558
+------------------------------------------------
+Feature selection method: classifier_mutual_info_classif. Accuracy: 0.9522258414766558
+------------------------------------------------
+Feature selection method: classifier_mutual_info_regression. Accuracy: 0.9489685124864278
+------------------------------------------------
+Feature selection method: classifier_f_classif. Accuracy: 0.9511400651465798
+------------------------------------------------
+Feature selection method: classifier_f_regression. Accuracy: 0.9511400651465798
+
+
+
+Parent Selection Type: rank
+Number of Generations: 25
+Features to select: 40
+Dataset: spam
+Running feature selection based on other feature selection algorithms
+--------------------------------------------------
+Training time: 320.39 seconds
+Generation: 25
+Parameters of the best solution : [0.62566933 0.14841012 0.67970863 0.10490439 0.87211041]
+Fitness value of the best solution = 0.9598262757871878
+[np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878)]
+Running feature selection based on simple genetic algorithm
+--------------------------------------------------
+Training time: 306.96 seconds
+Generation: 25
+Parameters of the best solution : [5, 27, 41, 14, 24, 31, 56, 20, 48, 23, 36, 33, 53, 30, 40, 29, 0, 17, 26, 11, 37, 4, 34, 45, 18, 16, 19, 38, 55, 35, 25, 15, 7, 13, 9, 51, 6, 1, 47, 44]
+Fitness value of the best solution = 0.9598262757871878
+[np.float64(0.9522258414766558), np.float64(0.9522258414766558), np.float64(0.9522258414766558), np.float64(0.9543973941368078), np.float64(0.9554831704668838), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878), np.float64(0.9598262757871878)]
+------------------------------------------------
+Feature selection method: classifier_chi2. Accuracy: 0.9554831704668838
+------------------------------------------------
+Feature selection method: classifier_mutual_info_classif. Accuracy: 0.9511400651465798
+------------------------------------------------
+Feature selection method: classifier_mutual_info_regression. Accuracy: 0.9511400651465798
+------------------------------------------------
+Feature selection method: classifier_f_classif. Accuracy: 0.9533116178067318
+------------------------------------------------
+Feature selection method: classifier_f_regression. Accuracy: 0.9533116178067318

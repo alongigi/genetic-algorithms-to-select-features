@@ -1,3 +1,4 @@
+import argparse
 import heapq
 import itertools
 import os
@@ -46,8 +47,8 @@ RANDOM_FOREST_SEED: int = 42
 TEST_TRAIN_SPLIT = 0.2
 RANDOM_STATE_OF_DATA_SPLIT = 42
 
-features_list = [isolet_features, spambase_features]
-target_variables_list = [isolet_target_variables, spambase_target_variables]
+features_list = {"isolet": isolet_features, "spam": spambase_features}
+target_variables_list = {"isolet": isolet_target_variables, "spam": spambase_target_variables}
 
 """
 Funtionality to choose a range of values instead of set values
@@ -251,13 +252,15 @@ def fitness_func_on_features_themselves(ga_instance, solution, solution_idx):
 def save_fitness_at_generation(ga_instance, my_l):
     my_l.append(ga_instance.best_solution()[1])
 
-def plot_fitness(ls, title, folder):
+def plot_fitness(ls, title, folder, label):
     # Create a line plot
-    plt.plot(ls)
+    # plt.clf()
+    plt.plot(ls, label=label)
     # Add labels and title (optional but recommended for clarity)
     plt.xlabel("Generation")
     plt.ylabel("Fitness Value")
     plt.title("Fitness Value Over Generations")
+    plt.legend()
     # Save the plot to a file
     plt.savefig(f"{folder}/{title}.png")  # Save as a PNG file
     # Display the plot
@@ -266,28 +269,35 @@ def plot_fitness(ls, title, folder):
 
 if __name__ == "__main__":
     np.random.seed(RANDOM_FOREST_SEED)
+    parser = argparse.ArgumentParser(description="A simple script to demonstrate argparse.")
+    parser.add_argument('filename', type=str, help="The name of the file to process")
+    parser.add_argument('-ng', type=int, help="num of gens")
 
-    tests_list = list(itertools.product(PARENT_SELECTION_TYPE, NUMBER_OF_GENERATIONS, FEATURES_TO_SELECT, [0, 1]))
+    args = parser.parse_args()
+    features = features_list[args.filename]
+    target_variables = target_variables_list[args.filename]
+    NUMBER_OF_GENERATIONS = args.ng
+
+    tests_list = list(itertools.product(PARENT_SELECTION_TYPE, FEATURES_TO_SELECT))
     now = datetime.now()
 
     # Format the timestamp to include the date, hour, and minute
     timestamp = now.strftime("%Y-%m-%d %H:%M")
-    output_folder = f"outputs/{timestamp}"
+    output_folder = f"outputs/{args.filename}_{NUMBER_OF_GENERATIONS}_gens_{timestamp}"
     # Check if the folder exists, if not, create it
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
 
     for test in tests_list:
+        test_title = f"{test}_{NUMBER_OF_GENERATIONS}gens_{args.filename}"
         print("\n\n")
         PARENT_SELECTION_TYPE = test[0]
-        NUMBER_OF_GENERATIONS = test[1]
-        FEATURES_TO_SELECT = test[2]
-        features = features_list[test[3]]
-        target_variables = target_variables_list[test[3]]
+        FEATURES_TO_SELECT = test[1]
+
         print(f"Parent Selection Type: {PARENT_SELECTION_TYPE}")
         print(f"Number of Generations: {NUMBER_OF_GENERATIONS}")
         print(f"Features to select: {FEATURES_TO_SELECT}")
-        print(f"Dataset: {'ISOLET' if test[3] == 0 else 'SPAMBASE'}")
+        print(f"Dataset: {args.filename}")
 
         X_df = pd.DataFrame(features)
         y_df = pd.DataFrame(target_variables)
@@ -418,7 +428,8 @@ if __name__ == "__main__":
         print("Parameters of the best solution : {solution}".format(solution=solution))
         print("Fitness value of the best solution = {solution_fitness}".format(solution_fitness=solution_fitness))
         fitness_vals.append(solution_fitness)
-        plot_fitness(fitness_vals, f"{test} - general", output_folder)
+        print(fitness_vals)
+        plot_fitness(fitness_vals, f"{test_title} - general", output_folder, f"{FEATURES_TO_SELECT} features, {PARENT_SELECTION_TYPE} parent selection")
 
 
         # # binary weights for each fs algorithm
@@ -455,7 +466,8 @@ if __name__ == "__main__":
         print("Parameters of the best solution : {solution}".format(solution=solution_limited))
         print("Fitness value of the best solution = {solution_fitness}".format(solution_fitness=solution_fitness))
         fitness_vals.append(solution_fitness)
-        plot_fitness(fitness_vals, f"{test} - direct", output_folder)
+        print(fitness_vals)
+        plot_fitness(fitness_vals, f"{test_title} - direct", output_folder, f"{FEATURES_TO_SELECT} features, {PARENT_SELECTION_TYPE} parent selection")
 
 
         # Training the model with the features selected by each algorithm individually to achieve ablation study.
